@@ -354,7 +354,23 @@ section h2 {
     font-weight: 600;
 }
 
+/* =========================
+   Projects
+========================= */
 
+#projects {
+    background-color: var(--light);
+}
+
+.projects-placeholder {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px;
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    color: var(--muted);
+}
 /* =========================
    Research
 ========================= */
