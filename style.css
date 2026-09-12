@@ -182,26 +182,22 @@ nav a:hover {
     font-size: 17px;
 }
 
-
 /* =========================
-   Buttons
+   Hero Buttons
 ========================= */
 
 .hero-buttons {
     display: flex;
-
     justify-content: center;
-
     flex-wrap: wrap;
-
     gap: 12px;
+    margin-top: 5px;
 }
 
-.primary-button,
-.secondary-button {
+.hero-button {
     display: inline-block;
 
-    padding: 12px 23px;
+    padding: 11px 25px;
 
     border-radius: 8px;
 
@@ -210,38 +206,23 @@ nav a:hover {
     font-size: 14px;
 
     font-weight: 700;
+
+    color: #1D4ED8;
+
+    background-color: #EFF6FF;
+
+    border: 1px solid #DBEAFE;
+
+    transition: 0.25s ease;
 }
 
-.primary-button {
-    background-color: var(--blue);
+.hero-button:hover {
+    background-color: #DBEAFE;
 
-    color: white;
-
-    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.2);
-}
-
-.primary-button:hover {
-    background-color: var(--blue-dark);
+    border-color: #BFDBFE;
 
     transform: translateY(-2px);
 }
-
-.secondary-button {
-    background-color: white;
-
-    color: var(--navy);
-
-    border: 1px solid var(--border);
-}
-
-.secondary-button:hover {
-    border-color: var(--blue);
-
-    color: var(--blue);
-
-    transform: translateY(-2px);
-}
-
 
 /* =========================
    Social Links
